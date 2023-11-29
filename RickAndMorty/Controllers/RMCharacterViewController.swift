@@ -13,6 +13,8 @@ final class RMCharacterViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        view.backgroundColor = .systemBackground
+        title = "Characters"
     }
     
 
