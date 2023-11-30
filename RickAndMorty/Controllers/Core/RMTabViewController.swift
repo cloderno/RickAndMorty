@@ -13,8 +13,6 @@ final class RMTabBarController: UITabBarController {
         super.viewDidLoad()
         
         setUpTabs()
-        
-//    https://rickandmortyapi.com/api/
     }
     
     // default is internal
