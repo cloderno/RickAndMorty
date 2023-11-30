@@ -7,11 +7,14 @@
 
 import UIKit
 
+/// Controller to house tabs and root tab controller
 final class RMTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
         setUpTabs()
+        
+//    https://rickandmortyapi.com/api/
     }
     
     // default is internal
